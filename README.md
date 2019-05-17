@@ -28,7 +28,7 @@ To initilize weight, I use xavier to initial the weight of two convlutional laye
 I have set learning rate to 0.005, batch_size to 8
 In training part, I made epoch number to 35  and print currnt epoch , step and loss after each step
 For testing, I have write a test script called 'test.py' and 'mycnn.ckpt' is my model.
-Running the command of  `python test.py test.jpg(or any other test image) ` to test that script
+Running the command of  `python test.py test.jpg`**(or any other test image)**  to test that script
 
 # The Problem I encounted
 ## Overfitting
