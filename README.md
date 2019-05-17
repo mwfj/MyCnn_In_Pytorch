@@ -7,7 +7,10 @@ In my dataset, I seperate it to two parts. One for test, the other for evaluatio
 
 In each part, I divded images into 10 categories, they are laughing, pullinghair, quarrel, slapping, punching, stabbing, gossiping, strangle, isolation and nonbullying
 
-**note that  the dataset of unbulloying  action comes from [Standford 40 Action](http://vision.stanford.edu/Datasets/40actions.html "Standford 40 Action")**
+**Note that :<br>**
+
++  the dataset of unbulloying  action comes from [Standford 40 Action](http://vision.stanford.edu/Datasets/40actions.html "Standford 40 Action")
++  I don't have the Copy Right on the bully image datasets, so I don't upload these datasets yet. The Copy Right belongs to [Dr. Feng Luo](https://people.cs.clemson.edu/~luofeng/)
 
 ## CNN Model
 
@@ -40,8 +43,7 @@ When I training module, a warning occasionally throw for me(show below), I took 
   
 ```
 
-<<<<<<< Updated upstream
-Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.
-=======
-Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.# MyCnn_In_Pytorch
->>>>>>> Stashed changes
+
+<h3>Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.</h3>
+
+
