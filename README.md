@@ -1,4 +1,4 @@
-# Project Description(Midterm Report)
+# Project Description
 
 <h3>In my project, I  build a CNN network to do the bulloy action classificaiton.</h3>
 
