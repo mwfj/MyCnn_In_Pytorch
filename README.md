@@ -1,6 +1,6 @@
 # Project Description(Midterm Report)
 
-###In my project, I  build a CNN network to do the bulloy action classificaiton.
+<h3>In my project, I  build a CNN network to do the bulloy action classificaiton.</h3>
 
 ## Dataset
 In my dataset, I seperate it to two parts. One for test, the other for evaluation. Specifically,  I take 85 percents images in each class for testing(`train_data`), 25 percents  images for evaluating(`val_data`).
@@ -40,4 +40,8 @@ When I training module, a warning occasionally throw for me(show below), I took 
   
 ```
 
+<<<<<<< Updated upstream
 Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.
+=======
+Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.# MyCnn_In_Pytorch
+>>>>>>> Stashed changes
