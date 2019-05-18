@@ -10,7 +10,7 @@ In each part, I divded images into 10 categories, they are laughing, pullinghair
 **Note that :<br>**
 
 +  the dataset of unbulloying  action comes from [Standford 40 Action](http://vision.stanford.edu/Datasets/40actions.html "Standford 40 Action")
-+  I don't have the Copy Right on the bully image datasets, so I don't upload these datasets yet. The Copy Right belongs to [Dr. Feng Luo](https://people.cs.clemson.edu/~luofeng/)
++  I don't have the Copy Right on the bully image datasets, so I can't upload these datasets yet. The Copy Right belongs to [Dr. Feng Luo](https://people.cs.clemson.edu/~luofeng/)
 
 ## CNN Model
 
