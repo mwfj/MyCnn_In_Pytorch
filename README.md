@@ -30,20 +30,5 @@ In training part, I made epoch number to 35  and print currnt epoch , step and l
 For testing, I have write a test script called 'test.py' and 'mycnn.ckpt' is my model.
 Running the command of  `python test.py test.jpg`**(or any other test image)**  to test that script
 
-# The Problem I encounted
 ## Overfitting
-I think my model still have overfiting problem, and my  module's loss function is tending to stable after 20 epoch
-
-## Program problem
-When I training module, a warning occasionally throw for me(show below), I took long time to fix it but still not work
-
-```shell
-/home/wufangm/.conda/envs/pytorch_env/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:780: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0.
-  warnings.warn(str(msg))
-  
-```
-
-
-<h3>Also, some picture is unreadable during my training time. After I deleted those picture, my module can run nomally, but I am not sure whether it is my program's problem.</h3>
-
-
+I think my model still have overfiting problem, and my  module's loss function is tending to stable after 20 epoch, the parameter is not carefully designed in this CNN Network. Also, in order to building the CNN structure by my own rather than using the existing CNN structure, I think my CNN architecture still unmature. This is another reason that my model encoutered overfitting problem.
