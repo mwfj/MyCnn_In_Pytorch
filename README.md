@@ -5,7 +5,7 @@
 ## Dataset
 In my dataset, I seperate it to two parts. One for test, the other for evaluation. Specifically,  I take 85 percents images in each class for testing(`train_data`), 25 percents  images for evaluating(`val_data`).
 
-In each part, I divded images into 10 categories, they are laughing, pullinghair, quarrel, slapping, punching, stabbing, gossiping, strangle, isolation and nonbullying
+In each part, I divded images into 10 categories, they are laughing, pullinghair, quarrel, slapping, punching, stabbing, gossiping, strangle, isolation and nonbullying.
 
 **Note that :<br>**
 
@@ -32,3 +32,4 @@ Running the command of  `python test.py test.jpg`**(or any other test image)**  
 
 ## Overfitting
 I think my model still have overfiting problem, and my  module's loss function is tending to stable after 20 epoch, the parameter is not carefully designed in this CNN Network. Also, in order to building the CNN structure by my own rather than using the existing CNN structure, I think my CNN architecture still unmature. This is another reason that my model encoutered overfitting problem.
+
